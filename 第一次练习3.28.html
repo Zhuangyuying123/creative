@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Positioning</title>
+    <style type="text/css">
+      body{
+        margin= 20px;
+        border:solid 1px black;
+      }
+      .container{
+        position: relative;
+        margin: 30px;
+        border:solid 1px orange;
+        padding: 10px;
+      }
+      .box1 {
+        width: 100px;
+        height: 100px;
+        background: orange;
+      }
+      .box2 {
+        width: 100px;
+        height: 100px;
+        background: blue;
+        border: yellow solid;
+        position:absolute;
+        left: 40px;
+        top: 40px;
+      }
+      .box3 {
+        width: 100px;
+        height: 100px;
+        background: green;
+      }
+      .box4 {
+        width: 100px;
+        height: 100px;
+        background: red;
+      }
+  </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box1"></div>
+      <div class="box2"></div>
+      <div class="box3"></div>
+      <div class="box4"></div>
+    </div>
+  </body>
+</html>
