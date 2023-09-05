@@ -33,6 +33,9 @@ doc.paragraphs[0].runs[3].font.color.rgb= RGBColor(0,233,233)
 #定义字体
 from docx.shared import Pt
 doc.paragraphs[0].runs[0].font.size=Pt(18)
+from docx.shared import Cm
+doc.paragraphs[0].runs[6].font.size=Cm(1)
+
 #定义字体
 from docx.oxml.ns import qn
 doc.paragraphs[0].runs[0].font.name='黑体'
